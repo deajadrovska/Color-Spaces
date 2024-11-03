@@ -1,0 +1,27 @@
+/* Sidebar background */
+[data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
+    background-color: rgba(20, 69, 52, 0.6); /* Dark green with 80% opacity */
+}
+
+/* Sidebar header text */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] h5,
+[data-testid="stSidebar"] h6 {
+    color: white;
+}
+
+/* Sidebar widget text */
+[data-testid="stSidebar"] .stTextInput,
+[data-testid="stSidebar"] .stButton,
+[data-testid="stSidebar"] .stSelectbox,
+[data-testid="stSidebar"] .stFileUploader,
+[data-testid="stSidebar"] .stSlider {
+    color: white;
+}
+
+.stMarkdown img + p {
+    color: rgba(20, 69, 52, 0.9); /* Dark green */
+}
